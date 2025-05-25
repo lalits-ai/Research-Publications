@@ -34,3 +34,21 @@ This study overcomes such limitations by leveraging a combination of **machine l
 - **Proposed Hybrid Model**: An integrated architecture combining CNN, Vision Transformers (ViT), and Attention layers for improved performance
 
 The performance of all models is evaluated based on **classification accuracy**, **generalization ability**, and standard metrics such as **precision**, **recall**, **F1-score**, and **ROC-AUC**. This study aims to enhance ground-level ozone classification to support **air quality management**, **health advisory systems**, and **policy formulation**.
+
+## Conclusion and Future Work
+
+The dataset exhibited outstanding performance when evaluated using the **hybrid CNN + Vision Transformer (ViT) + Attention** model and the **BiLSTM** model. These models achieved an excellent balance between accuracy and generalization. Notably, the hybrid model achieved **perfect classification with an AUC of 1.00** across all ozone categories, supported by **5-fold cross-validation**, highlighting its robustness and exceptional generalization capability.
+
+The **BiLSTM** model also delivered strong results, with **AUC scores ranging from 1.00 (for the "Good" category) to 0.92 (for the "Unhealthy" category)**, demonstrating reliable classification performance across all classes.
+
+In contrast, while **Decision Tree** and **Random Forest** models achieved perfect accuracy on the training data, they suffered from **overfitting**, which limited their generalizability to unseen, real-world data. This further reinforces the strength of BiLSTM and hybrid deep learning approaches for air quality classification tasks.
+
+### Future Work
+
+- **Hyperparameter Optimization**: Tuning the BiLSTM architecture and its parameters may further improve performance.
+- **Model Ensembling**: Combining the strengths of CNN and BiLSTM through ensemble learning could enhance prediction accuracy and robustness.
+- **Hybrid Architectures**: Future models may explore **CNN–BiLSTM hybrids** to maintain high classification accuracy while ensuring generalization across all EPA-defined ozone categories.
+- **Enhanced Feature Extraction**: Incorporating **attention mechanisms** more deeply into the model architecture could improve the ability to extract and prioritize relevant features from the input data.
+
+These directions offer promising pathways for developing more advanced and reliable air quality prediction systems using AI.
+
