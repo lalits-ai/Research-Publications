@@ -47,8 +47,7 @@ In contrast, while **Decision Tree** and **Random Forest** models achieved perfe
 
 - **Hyperparameter Optimization**: Tuning the BiLSTM architecture and its parameters may further improve performance.
 - **Model Ensembling**: Combining the strengths of CNN and BiLSTM through ensemble learning could enhance prediction accuracy and robustness.
-- **Hybrid Architectures**: Future models may explore **CNN–BiLSTM hybrids** to maintain high classification accuracy while ensuring generalization across all EPA-defined ozone categories.
-- **Enhanced Feature Extraction**: Incorporating **attention mechanisms** more deeply into the model architecture could improve the ability to extract and prioritize relevant features from the input data.
+
 
 These directions offer promising pathways for developing more advanced and reliable air quality prediction systems using AI.
 
